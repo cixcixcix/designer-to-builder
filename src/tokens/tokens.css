@@ -1,0 +1,100 @@
+:root {
+
+}
+:root {
+  --background-base: var(--white-white);
+  --background-brand-muted: var(--brand-200);
+  --background-brand-pop: var(--brand-500);
+  --background-brand-strong: var(--brand-300);
+  --background-brand-subtle: var(--brand-100);
+  --background-negative-muted: var(--red-200);
+  --background-negative-pop: var(--red-500);
+  --background-negative-strong: var(--red-300);
+  --background-negative-subtle: var(--red-100);
+  --background-page: var(--white-white);
+  --background-positive-muted: var(--green-200);
+  --background-positive-pop: var(--green-500);
+  --background-positive-strong: var(--green-300);
+  --background-positive-subtle: var(--green-100);
+  --background-warning-muted: var(--orange-200);
+  --background-warning-pop: var(--orange-500);
+  --background-warning-strong: var(--orange-300);
+  --background-warning-subtle: var(--orange-100);
+  --border-base: var(--grey-400);
+  --border-brand: var(--brand-400);
+  --border-width: 0.5px;
+  --foreground-brand-primary: var(--brand-800);
+  --foreground-brand-secondary: var(--brand-700);
+  --foreground-default-primary: var(--grey-800);
+  --foreground-default-secondary: var(--grey-700);
+  --padding-base: 8;
+  --padding-loose: 12;
+  --radius-base: 8px;
+  --shadow-lift-blur: 4;
+  --shadow-lift-color: var(--black-black 10);
+  --shadow-lift-y: 2;
+  --typography-body small strong-font family: Google Sans Flex;
+  --typography-body small strong-font size: 12;
+  --typography-body small strong-font weight: Medium;
+  --typography-body small strong-line height: 15.600000381469727;
+  --typography-body small-font family: Google Sans Flex;
+  --typography-body small-font size: 12;
+  --typography-body small-font weight: Regular;
+  --typography-body small-line height: 15.600000381469727;
+  --typography-body strong-font family: Google Sans Flex;
+  --typography-body strong-font size: 16;
+  --typography-body strong-font weight: Medium;
+  --typography-body strong-line height: 20.799999237060547;
+  --typography-body-font family: Google Sans Flex;
+  --typography-body-font size: 16;
+  --typography-body-font weight: Regular;
+  --typography-body-line height: 20.799999237060547;
+  --typography-heading large-font family: Google Sans Flex;
+  --typography-heading large-font size: 24;
+  --typography-heading large-font weight: Medium;
+  --typography-heading large-letter spacing: -0.25;
+  --typography-heading large-line height: 26.399999618530273;
+  --typography-heading-font family: Google Sans Flex;
+  --typography-heading-font size: 20;
+  --typography-heading-font weight: Medium;
+  --typography-heading-letter spacing: -0.25;
+  --typography-heading-line height: 22;
+  --❖ component-accordion-background: var(--white-white);
+  --❖ component-accordion-background active: var(--brand-100);
+  --❖ component-accordion-background section: var(--brand-100);
+  --❖ component-accordion-border: var(--grey-400);
+  --❖ component-accordion-border active: var(--brand-400);
+  --❖ component-accordion-foreground: var(--brand-800);
+  --❖ component-accordion-foreground active: var(--brand-800);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-base: var(--grey-700);
+    --background-brand-muted: var(--brand-700);
+    --background-brand-strong: var(--brand-600);
+    --background-brand-subtle: var(--brand-800);
+    --background-negative-muted: var(--red-700);
+    --background-negative-strong: var(--red-600);
+    --background-negative-subtle: var(--red-800);
+    --background-page: var(--grey-800);
+    --background-positive-muted: var(--green-700);
+    --background-positive-strong: var(--green-600);
+    --background-positive-subtle: var(--green-800);
+    --background-warning-muted: var(--orange-700);
+    --background-warning-strong: var(--orange-600);
+    --background-warning-subtle: var(--orange-800);
+    --border-base: var(--grey-600);
+    --border-brand: var(--brand-600);
+    --foreground-brand-primary: var(--brand-100);
+    --foreground-brand-secondary: var(--brand-200);
+    --foreground-default-primary: var(--grey-100);
+    --foreground-default-secondary: var(--grey-200);
+    --❖ component-accordion-background: var(--grey-700);
+    --❖ component-accordion-background active: var(--brand-200);
+    --❖ component-accordion-background section: var(--grey-700);
+    --❖ component-accordion-border: var(--brand-400);
+    --❖ component-accordion-border active: var(--brand-300);
+    --❖ component-accordion-foreground: var(--grey-100);
+  }
+}
